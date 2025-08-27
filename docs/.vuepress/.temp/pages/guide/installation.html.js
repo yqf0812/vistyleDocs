@@ -1,0 +1,3 @@
+import comp from "/Users/qingfengyang/Desktop/project/vuepress-starter/docs/.vuepress/.temp/pages/guide/installation.html.vue"
+const data = JSON.parse("{\"path\":\"/guide/installation.html\",\"title\":\"安装\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"npm 安装\",\"slug\":\"npm-安装\",\"link\":\"#npm-安装\",\"children\":[]},{\"level\":2,\"title\":\"引入组件库\",\"slug\":\"引入组件库\",\"link\":\"#引入组件库\",\"children\":[]},{\"level\":2,\"title\":\"按需引入\",\"slug\":\"按需引入\",\"link\":\"#按需引入\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"guide/installation.md\"}")
+export { comp, data }
