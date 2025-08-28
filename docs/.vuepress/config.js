@@ -4,7 +4,7 @@ import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   lang: "zh-CN",
-
+  base: "/vistyleDocs/", // 站点的基础路径
   title: "ViStyle",
   description: "基于Vue3，面向开发者的组件库",
   theme: defaultTheme({
