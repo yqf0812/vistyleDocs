@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: "./images/logo2.png"
+heroImage: "/images/logo2.png"
 actions:
   - text: Get Started
     link: /guide/installation.html

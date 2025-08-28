@@ -8,7 +8,7 @@ export default defineUserConfig({
   title: "ViStyle",
   description: "基于Vue3，面向开发者的组件库",
   theme: defaultTheme({
-    logo: "./../images/logo2.png",
+    logo: "/images/logo2.png",
 
     navbar: [
       { text: "首页", link: "/" },

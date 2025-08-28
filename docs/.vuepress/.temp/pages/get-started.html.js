@@ -1,3 +1,16 @@
 import comp from "/Users/qingfengyang/Desktop/project/vistyleDocs/docs/.vuepress/.temp/pages/get-started.html.vue"
 const data = JSON.parse("{\"path\":\"/get-started.html\",\"title\":\"组件\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"安装\",\"slug\":\"安装\",\"link\":\"#安装\",\"children\":[]},{\"level\":2,\"title\":\"Content\",\"slug\":\"content\",\"link\":\"#content\",\"children\":[]},{\"level\":2,\"title\":\"Configuration\",\"slug\":\"configuration\",\"link\":\"#configuration\",\"children\":[]},{\"level\":2,\"title\":\"Layouts and customization\",\"slug\":\"layouts-and-customization\",\"link\":\"#layouts-and-customization\",\"children\":[]}],\"git\":{\"updatedTime\":1756291583000,\"contributors\":[{\"name\":\"NeverSettle\",\"username\":\"NeverSettle\",\"email\":\"1274565784@qq.com\",\"commits\":1,\"url\":\"https://github.com/NeverSettle\"}],\"changelog\":[{\"hash\":\"8fcddebd5af9c399e6bde7a4cd4af34d858183ff\",\"time\":1756291583000,\"email\":\"1274565784@qq.com\",\"author\":\"NeverSettle\",\"message\":\"first\"}]},\"filePathRelative\":\"get-started.md\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

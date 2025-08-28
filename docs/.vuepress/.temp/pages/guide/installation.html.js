@@ -1,3 +1,16 @@
 import comp from "/Users/qingfengyang/Desktop/project/vistyleDocs/docs/.vuepress/.temp/pages/guide/installation.html.vue"
 const data = JSON.parse("{\"path\":\"/guide/installation.html\",\"title\":\"安装\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"npm 安装\",\"slug\":\"npm-安装\",\"link\":\"#npm-安装\",\"children\":[]},{\"level\":2,\"title\":\"引入组件库\",\"slug\":\"引入组件库\",\"link\":\"#引入组件库\",\"children\":[]},{\"level\":2,\"title\":\"按需引入\",\"slug\":\"按需引入\",\"link\":\"#按需引入\",\"children\":[]}],\"git\":{\"updatedTime\":1756291583000,\"contributors\":[{\"name\":\"NeverSettle\",\"username\":\"NeverSettle\",\"email\":\"1274565784@qq.com\",\"commits\":1,\"url\":\"https://github.com/NeverSettle\"}],\"changelog\":[{\"hash\":\"8fcddebd5af9c399e6bde7a4cd4af34d858183ff\",\"time\":1756291583000,\"email\":\"1274565784@qq.com\",\"author\":\"NeverSettle\",\"message\":\"first\"}]},\"filePathRelative\":\"guide/installation.md\"}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
